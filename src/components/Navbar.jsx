@@ -10,7 +10,7 @@ export default function Navbar() {
       <nav className="flex items-center justify-between w-full max-w-[1000px] mx-auto py-3 px-6 md:px-0 md:py-8">
         <h1
           onClick={() => navigate("/")}
-          className="text-lg font-bold tracking-widest md:text-2xl"
+          className="text-lg font-bold tracking-widest cursor-pointer md:text-2xl"
         >
           AnorMarket
         </h1>
